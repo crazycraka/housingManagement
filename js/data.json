@@ -1,0 +1,16 @@
+{
+  "practiceData" : " stuff in here",
+  "practiceHousing": {
+      "housingOne" : {
+          "provo" : {
+              "one" : {
+                  "name": "Scott Schermerhorn",
+                  "phone": "801-857-7898",
+                  "email" : "plaidscott@gmail.com",
+                  "slackHandle" : "plaidscott"
+              }
+          }
+      }
+  }
+
+}
