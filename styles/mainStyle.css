@@ -1,68 +1,10 @@
-/*LOGINTMPLE.HTML*/
-
-html{
-    height: auto;
-    width: auto;
-}
-
-body {
-    height: auto;
-    width: auto;
-}
-.login-wrapper{
-    width: 100vw;
-    height: 100vh;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-container{
-    width: 30%;
-    height: 200px;
-    background-color: lightslategrey;
+/*INDEX.HTML*/
 
 
-}
 
-.upper-half-login-wrapper{
-    height: 50%;
+header{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    height: 100px;
+    background-color: cornflowerblue;
 
-.lower-half-login-wrapper{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lower-half-login-container{
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-
-
-/*DISYAPLHOUSINGTMPL.HTML*/
-
-.display-housing-wrapper {
-    height: 100vh;
-    width: 100vw;
-    /*background-color: brown;*/
-    position: fixed;
-    top: 10px;
-    z-index: -1;
-}
-
-.test-hide {
-    z-index: 100;
-    background-color: aquamarine;
 }

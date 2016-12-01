@@ -4,6 +4,6 @@
 
 angular.module('app').service('mainSrv', function(){
 
-    this.hideLogin = true;
+
 
 })

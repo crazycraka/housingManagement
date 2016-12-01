@@ -11,17 +11,11 @@
 </head>
 <body ng-controller="mainCtrl">
 
-
-
-
-<login-dir login-name="userName"></login-dir><br>
-<br>
-<!--{{userName}}-->
-
-<display-housing-dir account-name="userName++
----*"></display-housing-dir>
-
-
+	<header>
+		<input placeholder="put user name here" ng-model="userName">
+		<button ng-click="checkName(userName)">user name input</button>
+	</header>
+	{{userName}}
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
